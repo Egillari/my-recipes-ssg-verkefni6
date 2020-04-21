@@ -1,0 +1,31 @@
+
+.topmenu a {
+    display: block;
+    padding: .9em 1em;
+    color: #592550;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+.topmenu li :hover,.active{
+   background: peru;
+}
+.topmenu a {
+    color: black;
+    text-decoration: none;
+}
+.topmenu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+}
+    .topmenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+    .topmenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
